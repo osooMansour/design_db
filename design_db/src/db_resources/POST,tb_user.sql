@@ -27,7 +27,6 @@
    *@1:N 관계 : tb_user 테이블이 '1'file_info테이블의 u_email 컬럼이 'N'  
    *@ 외래 키 보유 : POST 테이블의 u_email 
    */
-
 CREATE SEQUENCE f_id_sequence START 1;  
 create table file_info(
   f_id                    INTEGER         DEFAULT nextval('f_id_sequence')  PRIMARY KEY, 
